@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "build:heroku": "find ./node_modules -name \"*.babelrc\" -type f -delete; parcel build index.html"
+  },
+  "author": "Greg Lamp <lamp.greg@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.10.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-flexbox-grid": "^2.1.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}

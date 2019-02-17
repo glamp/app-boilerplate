@@ -7,3 +7,5 @@ yarn.lock
 *.ndjson
 *.swp
 .DS_Store
+
+app/.cache/
